@@ -1,0 +1,16 @@
+OpenWindow="Source Files", DockArea=RIGHT, x=0, y=1, w=501, h=485, FilterBarShown=1, 
+OpenWindow="Global Data", DockArea=RIGHT, x=0, y=1, w=501, h=485, FilterBarShown=1, 
+OpenWindow="Registers", DockArea=RIGHT, x=0, y=1, w=501, h=485, FilterBarShown=0, 
+OpenWindow="Call Stack", DockArea=LEFT, x=0, y=1, w=456, h=168, FilterBarShown=0, 
+OpenWindow="Breakpoints", DockArea=LEFT, x=0, y=2, w=456, h=300, FilterBarShown=0, 
+OpenWindow="Local Data", DockArea=RIGHT, x=0, y=0, w=501, h=422, FilterBarShown=0, 
+OpenWindow="Call Graph", DockArea=LEFT, x=0, y=0, w=456, h=450, FilterBarShown=1, 
+OpenWindow="Source", ExecCountersShown=1
+OpenToolbar="Debug", Floating=0, x=0, y=0
+TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts"], ColWidths=[242;65;48;130]
+TableHeader="Global Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Access";"Scope"], ColWidths=[238;84;84;48;250;64;203]
+TableHeader="Registers", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Description"], ColWidths=[125;77;283]
+TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Info";"Source"], ColWidths=[130;100;1090]
+TableHeader="Breakpoints", SortCol="State", SortOrder="ASCENDING", VisibleCols=["State";"Location";"Permitted Impl.";"Actual Impl.";"Context";"Task Filter";"Skip #";"Condition";"Script Callback"], ColWidths=[53;220;106;88;445;80;58;76;105]
+TableHeader="Local Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Access"], ColWidths=[266;135;84;48;360;64]
+TableHeader="Call Graph", SortCol="Stack Total", SortOrder="DESCENDING", VisibleCols=["Name";"Stack Total";"Stack Local";"Depth";"Called From";"Call Site PC"], ColWidths=[200;84;87;64;180;147]

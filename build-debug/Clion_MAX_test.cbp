@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Clion_MAX_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nick/project/CubeMX/Clion_MAX_test/build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/nick/project/CubeMX/Clion_MAX_test/build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nick/project/CubeMX/Clion_MAX_test/build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UPLOAD">
+				<Option working_dir="/home/nick/project/CubeMX/Clion_MAX_test/build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 UPLOAD"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Clion_MAX_test.elf">
+				<Option output="/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Clion_MAX_test.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nick/project/CubeMX/Clion_MAX_test/build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DSTM32F429xx"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/App"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Inc"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/RTT"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/include"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 Clion_MAX_test.elf"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Clion_MAX_test.elf/fast">
+				<Option output="/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Clion_MAX_test.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nick/project/CubeMX/Clion_MAX_test/build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DSTM32F429xx"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/App"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Inc"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/home/nick/project/CubeMX/Clion_MAX_test/RTT"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/include"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
+					<Add directory="/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 Clion_MAX_test.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/nick/project/CubeMX/Clion_MAX_test/build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/App/MAX7219.cpp">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/App/MAX7219.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/App/MAX7219_MatrixDisplay.cpp">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/App/MAX7219_MatrixDisplay.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/App/MAX7219_Pin.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/App/MAX7219_Register.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/arm_common_tables.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/arm_const_structs.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/arm_math.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/cmsis_armcc_V6.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/core_cmFunc.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/core_cmInstr.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/core_cmSimd.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Inc/FreeRTOSConfig.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Inc/dma.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Inc/example.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Inc/gpio.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Inc/main.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Inc/spi.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Inc/stm32f4xx_hal_conf.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Inc/stm32f4xx_it.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOSConfig_template.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/RTT/RTT_Syscalls_GCC.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/RTT/SEGGER_RTT.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/RTT/SEGGER_RTT.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/RTT/SEGGER_RTT_Conf.h">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/RTT/SEGGER_RTT_printf.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/STM32F429ZITx_FLASH.ld">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Src/dma.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Src/example.cpp">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Src/freertos.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Src/gpio.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Src/main.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Src/spi.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Src/stm32f4xx_hal_msp.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Src/stm32f4xx_hal_timebase_TIM.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Src/stm32f4xx_it.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/Src/system_stm32f4xx.c">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/startup/startup_stm32f429xx.s">
+			<Option target="Clion_MAX_test.elf"/>
+		</Unit>
+		<Unit filename="/home/nick/project/CubeMX/Clion_MAX_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

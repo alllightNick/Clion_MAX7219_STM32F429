@@ -1,0 +1,4 @@
+/home/nick/project/CubeMX/Clion_MAX_test/build-debug/CMakeFiles/rebuild_cache.dir
+/home/nick/project/CubeMX/Clion_MAX_test/build-debug/CMakeFiles/edit_cache.dir
+/home/nick/project/CubeMX/Clion_MAX_test/build-debug/CMakeFiles/UPLOAD.dir
+/home/nick/project/CubeMX/Clion_MAX_test/build-debug/CMakeFiles/Clion_MAX_test.elf.dir
